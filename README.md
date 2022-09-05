@@ -6,6 +6,7 @@ ve daha sonra geri dönüp bunları yeniden uygulayabilirsiniz. Bağlamı hızl�
 kullanışlıdır.
 
 
-#### git stash komutu, taahhüt edilmemiş değişikliklerinizi (hem aşamalı hem de aşamalı olmayan) alır, bunları daha sonra kullanmak üzere kaydeder
+#### git stash komutu, taahhüt(commit) edilmemiş değişikliklerinizi (hem aşamalı hem de aşamalı olmayan) alır, bunları daha sonra kullanmak üzere kaydeder
 ve ardından bunları çalışan kopyanızdan geri alır.
-Örneğin:
+
+Örneğin: bir değişiklik üzerinde çalışırken başka bir konu ile ilgili kritik bir sorun bildirildiğinde yapmakta olduğumuz işi yarım bırakıp yeni soruna odaklanmak zorunda kalabilirsiniz. Bu gibi durumlarda yeni sorun ile ilgilenmeye başlamak için önceki değişikliklerinizi kaybetmeden yeni ve temiz bir branch oluşturmalısınız. Yarım kalan değişiklikleri kayıt altına almak için git stash komutunu kullanmalısınız.
